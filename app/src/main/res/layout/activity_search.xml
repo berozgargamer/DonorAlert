@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Activities.activity_search">
+
+    <EditText
+        android:id="@+id/sr_bloodgroup"
+
+        android:layout_marginTop="210dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/input_field"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:hint="Blood Group"/>
+
+    <EditText
+        android:id="@+id/sr_city"
+        android:layout_below="@+id/sr_bloodgroup"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_field"
+
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:hint="City"/>
+
+    <Button
+        android:id="@+id/sr_search"
+        android:layout_below="@+id/sr_city"
+
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Search"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
